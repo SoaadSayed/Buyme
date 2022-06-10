@@ -1,0 +1,105 @@
+.categories--card {
+
+    &--img {
+
+
+        &--content {
+
+            position: relative;
+            bottom: 130px;
+            left: 37px;
+            
+            & h3 {
+
+                font-family: $logo-font;
+                font-size: 1.5em;
+                color: $white-color;
+            }
+
+            &--subhead {
+
+                font-family: $logo-font;
+                font-size: 1.5em;
+                color: $primary-color;
+                position: relative;
+                bottom: 26px;
+            }
+
+            &--text {
+
+                font-family: $secondary-font;
+                font-size: 1em;
+                position: relative;
+                bottom: 26px;
+                right: 10px;
+                font-weight: 600;
+                font-style: italic;
+            }
+
+            &--subtext {
+
+                font-family: $logo-font;
+                font-size: 0.8em;
+                position: relative;
+                bottom: 20px;
+                right: -2px;
+            }
+        }
+
+        &--contenttwo {
+
+            position: relative;
+            bottom: 100px;
+            left: 17px;
+
+            & p {
+
+                visibility: hidden;
+            }
+
+            &--text {
+
+                font-family: $secondary-font;
+                font-size: 1em;
+                position: relative;
+                bottom: 26px;
+                right: 10px;
+                font-weight: 600;
+                font-style: italic;
+            }
+
+            &--subtext {
+
+                font-family: $logo-font;
+                font-size: 0.8em;
+                position: relative;
+                bottom: 53px;
+                right: -4px;
+            }
+
+            &--btn {
+
+                display: inline;
+
+                & a {
+
+                    font-size: 0.8em;
+                    font-family: $secondary-font;
+                    text-decoration: none;
+                    text-transform: capitalize;
+                    margin-left: 13px;
+                    @include border-background;
+                    color: $white-color;
+                    border-radius: 15px;
+                    padding: 2px 17px 3px 17px;
+                    position: relative;
+                    bottom: 40px;
+                    right: 18px;
+                }
+            }
+        }
+        
+    }
+
+
+}

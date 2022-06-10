@@ -1,0 +1,28 @@
+
+.products--card {
+
+    &--img {
+
+        & img:hover {
+
+            transform: scale(0.9, 0.9);
+            transition: 0.5s;
+        }
+
+        &--content {
+
+            text-align: center;
+            font-family: $secondary-font;
+
+            & h3 {
+
+                font-weight: 400;
+            }
+
+            & p {
+
+                color: $primary-color;
+            }
+        }
+    }
+}

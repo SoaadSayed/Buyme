@@ -1,0 +1,56 @@
+.header {
+
+    &--btn {
+    
+        display: inline;
+    
+        & a {
+    
+            font-size: 0.9em;
+            font-family: $secondary-font;
+            text-decoration: none;
+            text-transform: capitalize;
+            margin-left: 13px;
+        }
+    
+        &--rectangle {
+    
+            color: $black-color;
+            border: 1px solid transparent;
+    
+            &:hover {
+    
+                @include border-background;
+                color: $white-color;
+                padding: 2px 4px;
+    
+            }
+
+        }
+    
+        &--circle {
+    
+            @include border-background;
+            @include btn-stlyle;
+            
+            &--margin {
+
+                @include border-background;
+                @include btn-stlyle;
+                position: relative;
+                top: 20px;
+                left: 85px;
+            }
+            
+            &--margin-two {
+                
+                @include border-background;
+                @include btn-stlyle;
+                position: relative;
+                bottom: 45px;
+                left: -20px;
+
+            }
+        }
+    }
+}

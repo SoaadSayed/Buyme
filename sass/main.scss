@@ -1,0 +1,25 @@
+// Abstract Files
+@import 'abstracts/variables';
+@import 'abstracts/mixins';
+
+// Base Files
+@import 'base/reset.scss';
+
+// Layout Files
+@import 'layout/header';
+@import 'layout/why-buyme';
+@import 'layout/categories';
+@import 'layout/footer';
+
+// Componenet Files
+@import 'components/buttons';
+@import 'components/logo';
+@import 'components/banner';
+@import 'components/mincard';
+@import 'components/category-card';
+@import 'components/latest-products';
+@import 'components/footer-section';
+@import 'components/title';
+
+// Page Files
+@import 'pages/categories';

@@ -1,0 +1,39 @@
+.mini-card {
+
+    &--head {
+
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+        gap: 5px;
+        align-items: baseline;
+        margin: 0 auto;
+        font-size: 1.5em;
+    }
+
+    &--cards {
+
+
+        &--img {
+
+            & img {
+
+                margin-left: 20px;
+            }
+
+            & p {
+
+                font-family: $secondary-font;
+                font-size: 1em;
+                text-transform: capitalize;
+            }
+
+            &--text {
+
+                margin-left: 10px;
+            }
+        }
+        
+    }
+
+}

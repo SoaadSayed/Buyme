@@ -1,0 +1,220 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.container {
+  margin: 0 auto;
+  width: 1070px; }
+
+.row {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  gap: 10px;
+  width: 100%;
+  align-items: center; }
+
+.header {
+  background-color: #F5F5F5;
+  position: fixed;
+  top: 0;
+  width: 100%; }
+
+.mini-card {
+  background-color: #F5F5F5;
+  height: 60%;
+  padding-bottom: 15px; }
+
+.categories {
+  padding-top: 35px; }
+
+.footer {
+  background-color: #F5F5F5; }
+  .footer--subinfo {
+    position: relative;
+    right: 140px; }
+    .footer--subinfo h1 {
+      font-family: Script MT;
+      text-align: center;
+      padding-bottom: 10px; }
+    .footer--subinfo input {
+      padding: 10px;
+      width: 90%;
+      border: 1px solid #cac7c7;
+      border-radius: 20px; }
+
+.header--btn {
+  display: inline; }
+  .header--btn a {
+    font-size: 0.9em;
+    font-family: Segoe UI;
+    text-decoration: none;
+    text-transform: capitalize;
+    margin-left: 13px; }
+  .header--btn--rectangle {
+    color: black;
+    border: 1px solid transparent; }
+    .header--btn--rectangle:hover {
+      background-color: #BC937B;
+      border: 1px solid #BC937B;
+      color: white;
+      padding: 2px 4px; }
+  .header--btn--circle {
+    background-color: #BC937B;
+    border: 1px solid #BC937B;
+    color: white;
+    border-radius: 15px;
+    padding: 2px 17px 3px 17px; }
+    .header--btn--circle--margin {
+      background-color: #BC937B;
+      border: 1px solid #BC937B;
+      color: white;
+      border-radius: 15px;
+      padding: 2px 17px 3px 17px;
+      position: relative;
+      top: 20px;
+      left: 85px; }
+    .header--btn--circle--margin-two {
+      background-color: #BC937B;
+      border: 1px solid #BC937B;
+      color: white;
+      border-radius: 15px;
+      padding: 2px 17px 3px 17px;
+      position: relative;
+      bottom: 45px;
+      left: -20px; }
+
+.header--logo {
+  font-family: Script MT;
+  color: #BC937B;
+  font-size: 1.8em;
+  text-decoration: none;
+  font-weight: 600; }
+
+.banner-img {
+  height: 600px;
+  width: 100%;
+  background-image: url("../../images/main.jpg");
+  background-size: cover;
+  background-position-y: -54px;
+  background-repeat: no-repeat; }
+
+.mini-card--head {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+  align-items: baseline;
+  margin: 0 auto;
+  font-size: 1.5em; }
+
+.mini-card--cards--img img {
+  margin-left: 20px; }
+
+.mini-card--cards--img p {
+  font-family: Segoe UI;
+  font-size: 1em;
+  text-transform: capitalize; }
+
+.mini-card--cards--img--text {
+  margin-left: 10px; }
+
+.categories--card--img--content {
+  position: relative;
+  bottom: 130px;
+  left: 37px; }
+  .categories--card--img--content h3 {
+    font-family: Script MT;
+    font-size: 1.5em;
+    color: white; }
+  .categories--card--img--content--subhead {
+    font-family: Script MT;
+    font-size: 1.5em;
+    color: #BC937B;
+    position: relative;
+    bottom: 26px; }
+  .categories--card--img--content--text {
+    font-family: Segoe UI;
+    font-size: 1em;
+    position: relative;
+    bottom: 26px;
+    right: 10px;
+    font-weight: 600;
+    font-style: italic; }
+  .categories--card--img--content--subtext {
+    font-family: Script MT;
+    font-size: 0.8em;
+    position: relative;
+    bottom: 20px;
+    right: -2px; }
+
+.categories--card--img--contenttwo {
+  position: relative;
+  bottom: 100px;
+  left: 17px; }
+  .categories--card--img--contenttwo p {
+    visibility: hidden; }
+  .categories--card--img--contenttwo--text {
+    font-family: Segoe UI;
+    font-size: 1em;
+    position: relative;
+    bottom: 26px;
+    right: 10px;
+    font-weight: 600;
+    font-style: italic; }
+  .categories--card--img--contenttwo--subtext {
+    font-family: Script MT;
+    font-size: 0.8em;
+    position: relative;
+    bottom: 53px;
+    right: -4px; }
+  .categories--card--img--contenttwo--btn {
+    display: inline; }
+    .categories--card--img--contenttwo--btn a {
+      font-size: 0.8em;
+      font-family: Segoe UI;
+      text-decoration: none;
+      text-transform: capitalize;
+      margin-left: 13px;
+      background-color: #BC937B;
+      border: 1px solid #BC937B;
+      color: white;
+      border-radius: 15px;
+      padding: 2px 17px 3px 17px;
+      position: relative;
+      bottom: 40px;
+      right: 18px; }
+
+.products--card--img img:hover {
+  transform: scale(0.9, 0.9);
+  transition: 0.5s; }
+
+.products--card--img--content {
+  text-align: center;
+  font-family: Segoe UI; }
+  .products--card--img--content h3 {
+    font-weight: 400; }
+  .products--card--img--content p {
+    color: #BC937B; }
+
+.footer--info {
+  padding-top: 20px; }
+  .footer--info p {
+    width: 38%;
+    padding-bottom: 10px;
+    color: #cac7c7; }
+  .footer--info--socialmedia img {
+    padding-right: 10px; }
+
+.header-title {
+  font-family: Script MT;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin: 0 auto;
+  font-size: 2.3em;
+  color: #BC937B; }
+
+.main-categories {
+  margin-top: 30px; }

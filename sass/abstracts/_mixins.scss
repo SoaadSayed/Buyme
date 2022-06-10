@@ -1,0 +1,24 @@
+@mixin border-background {
+ 
+    background-color: $primary-color;
+    border: 1px solid $primary-color;
+}
+
+@mixin section-header {
+ 
+    font-family: $logo-font;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 0 auto;
+    font-size: 2.3em;
+    color: $primary-color;
+}
+
+@mixin btn-stlyle {
+    
+    color: $white-color;
+    border-radius: 15px;
+    padding: 2px 17px 3px 17px;
+}
